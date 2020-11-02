@@ -1,6 +1,6 @@
 # ASAP Rocky Quiz
 
-<img src="https://github.com/kmnthecoder/Persona-5-Clock-Face/blob/master/demo/persona-5-face-demo.gif" width="275" height="275">
+<img src="https://github.com/kmnthecoder/asap-rocky-quiz/blob/master/demo/quiz-demo-pic.png" width="867" height="588">
 
 An ASAP Rocky quiz built with React and TypeScript.
 
