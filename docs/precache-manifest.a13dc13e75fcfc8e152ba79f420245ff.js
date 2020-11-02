@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "689761780aa5ab21e9d2b91213196315",
+    "revision": "45de3c1e1c912e211ba8d4ee669d8862",
     "url": "/asap-rocky-quiz/index.html"
   },
   {
