@@ -1,6 +1,6 @@
 # ASAP Rocky Quiz
 
-<img src="https://github.com/kmnthecoder/asap-rocky-quiz/blob/main/demo/quiz-demo-pic.png" width="531" height="360">
+<img src="https://github.com/kmnthecoder/asap-rocky-quiz/blob/main/demo/quiz-demo-pic.png" width="354" height="240">
 
 An ASAP Rocky quiz built with React and TypeScript.
 
