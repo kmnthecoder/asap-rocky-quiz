@@ -96,6 +96,8 @@ export default function App() {
     },
   ];
 
+  let myApp = document.getElementsByClassName("app");
+
   // react states
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [showScore, setShowScore] = useState(false);
@@ -105,7 +107,7 @@ export default function App() {
     setScore(0);
     setCurrentQuestion(0);
     setShowScore(false);
-  };
+  }; 
 
   const handleAnswerButtonClick = (isCurrent: boolean) => {
     if (isCurrent === true) {
