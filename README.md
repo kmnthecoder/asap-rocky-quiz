@@ -6,7 +6,7 @@ An ASAP Rocky quiz built with React and TypeScript.
 
 # Lessons learned / Final thoughts
 
-This was built as a personal learning project. I learned about a bit about how JavaScript differs from TypeScript, and learned about some of the basics of React (e.g., states).
+This was built as a personal learning project. I learned a bit about how JavaScript differs from TypeScript, and learned about some of the basics of React (e.g., states). I also became more familiar with the NPM, and how its dependencies and installing packages work.
 
 # License [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
