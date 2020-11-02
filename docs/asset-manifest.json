@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/asap-rocky-quiz/static/css/main.d61874f0.chunk.css",
-    "main.js": "/asap-rocky-quiz/static/js/main.67f60c19.chunk.js",
-    "main.js.map": "/asap-rocky-quiz/static/js/main.67f60c19.chunk.js.map",
+    "main.css": "/asap-rocky-quiz/static/css/main.02f04ba9.chunk.css",
+    "main.js": "/asap-rocky-quiz/static/js/main.f9f9ca46.chunk.js",
+    "main.js.map": "/asap-rocky-quiz/static/js/main.f9f9ca46.chunk.js.map",
     "runtime-main.js": "/asap-rocky-quiz/static/js/runtime-main.d75af3ae.js",
     "runtime-main.js.map": "/asap-rocky-quiz/static/js/runtime-main.d75af3ae.js.map",
     "static/js/2.45a5db28.chunk.js": "/asap-rocky-quiz/static/js/2.45a5db28.chunk.js",
     "static/js/2.45a5db28.chunk.js.map": "/asap-rocky-quiz/static/js/2.45a5db28.chunk.js.map",
     "index.html": "/asap-rocky-quiz/index.html",
-    "precache-manifest.abe2e1707b21e03f0588c9dfd47dcb5a.js": "/asap-rocky-quiz/precache-manifest.abe2e1707b21e03f0588c9dfd47dcb5a.js",
+    "precache-manifest.26ea25ab1377a96f02200b9049baa3ec.js": "/asap-rocky-quiz/precache-manifest.26ea25ab1377a96f02200b9049baa3ec.js",
     "service-worker.js": "/asap-rocky-quiz/service-worker.js",
-    "static/css/main.d61874f0.chunk.css.map": "/asap-rocky-quiz/static/css/main.d61874f0.chunk.css.map",
+    "static/css/main.02f04ba9.chunk.css.map": "/asap-rocky-quiz/static/css/main.02f04ba9.chunk.css.map",
     "static/js/2.45a5db28.chunk.js.LICENSE.txt": "/asap-rocky-quiz/static/js/2.45a5db28.chunk.js.LICENSE.txt",
     "static/media/index.css": "/asap-rocky-quiz/static/media/rocky-lsd-wallpaper.e1d39e0d.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.d75af3ae.js",
     "static/js/2.45a5db28.chunk.js",
-    "static/css/main.d61874f0.chunk.css",
-    "static/js/main.67f60c19.chunk.js"
+    "static/css/main.02f04ba9.chunk.css",
+    "static/js/main.f9f9ca46.chunk.js"
   ]
 }

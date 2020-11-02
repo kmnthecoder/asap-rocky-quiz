@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/asap-rocky-quiz/precache-manifest.abe2e1707b21e03f0588c9dfd47dcb5a.js"
+  "/asap-rocky-quiz/precache-manifest.26ea25ab1377a96f02200b9049baa3ec.js"
 );
 
 self.addEventListener('message', (event) => {
