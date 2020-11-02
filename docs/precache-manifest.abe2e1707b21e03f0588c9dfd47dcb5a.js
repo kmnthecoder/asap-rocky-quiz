@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "45de3c1e1c912e211ba8d4ee669d8862",
+    "revision": "494fec0c72b9cea79ea5dc75c86f917f",
     "url": "/asap-rocky-quiz/index.html"
   },
   {
-    "revision": "239baf1292e582ea5512",
-    "url": "/asap-rocky-quiz/static/css/main.18868347.chunk.css"
+    "revision": "047a38f86abf8d440413",
+    "url": "/asap-rocky-quiz/static/css/main.d61874f0.chunk.css"
   },
   {
     "revision": "deacecf959496c1df5e7",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/asap-rocky-quiz/static/js/2.45a5db28.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "239baf1292e582ea5512",
+    "revision": "047a38f86abf8d440413",
     "url": "/asap-rocky-quiz/static/js/main.67f60c19.chunk.js"
   },
   {

@@ -23,9 +23,9 @@ body {
 
 .app {
   background-color: #ffa024;
-  width: 450px;
+  max-width: 100%;
   min-height: 200px;
-  height: min-content;
+  height: auto;
   border-radius: 15px;
   padding: 20px;
   box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
