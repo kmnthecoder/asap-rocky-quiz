@@ -8,7 +8,7 @@ export default function App() {
       answerOptions: [
         { answerText: "Rocky Balboa", isCorrect: false },
         { answerText: "Rocky Marciano", isCorrect: false },
-        { answerText: 'Rakim from "Eric.B. & Rakim"', isCorrect: true },
+        { answerText: "Rakim from 'Eric.B. & Rakim'", isCorrect: true },
         { answerText: "Randomly", isCorrect: false },
       ],
     },
@@ -58,7 +58,7 @@ export default function App() {
       ],
     },
     {
-      questionText: "ASAP Rocky said if he wasn't a rapper, he would be...?",
+      questionText: "ASAP Rocky said if he wasn't a rapper, he would be a/an...?",
       answerOptions: [
         { answerText: "Singer", isCorrect: false },
         { answerText: "Photographer", isCorrect: false },
@@ -132,7 +132,7 @@ export default function App() {
       ],
     },
     {
-      questionText: "Rocky is ...?",
+      questionText: "Rocky's diet is described as...?",
       answerOptions: [
         { answerText: "Vegan", isCorrect: true },
         { answerText: "Omnivore", isCorrect: false },
