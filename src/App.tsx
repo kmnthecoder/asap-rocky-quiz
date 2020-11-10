@@ -187,7 +187,8 @@ export default function App() {
       ],
     },
     {
-      questionText: "In 2016, Rocky released a clothing line collaboration with...?",
+      questionText:
+        "In 2016, Rocky released a clothing line collaboration with...?",
       answerOptions: [
         { answerText: "Dior", isCorrect: false },
         { answerText: "Guess", isCorrect: true },
@@ -223,7 +224,8 @@ export default function App() {
       ],
     },
     {
-      questionText: "In 2015, Rocky's close friend and fellow ASAP Mob member passed away. Which member was it?",
+      questionText:
+        "In 2015, Rocky's close friend and fellow ASAP Mob member passed away. Which member was it?",
       answerOptions: [
         { answerText: "ASAP Illz", isCorrect: false },
         { answerText: "ASAP Yams", isCorrect: true },
@@ -260,8 +262,7 @@ export default function App() {
       ],
     },
     {
-      questionText:
-        "Rocky's signature hair style is...?",
+      questionText: "Rocky's signature hair style is...?",
       answerOptions: [
         { answerText: "Corn Rows", isCorrect: false },
         { answerText: "Afro", isCorrect: false },
@@ -289,27 +290,40 @@ export default function App() {
     },
   ];
 
-  let myApp = document.getElementsByClassName("app");
-
   // react states
-  const [currentQuestion, setCurrentQuestion] = useState(0);
+  const [currentQuestion, setCurrentQuestion] = useState(
+    Math.floor(Math.random() * questions.length)
+  ); // random question
   const [showScore, setShowScore] = useState(false);
   const [score, setScore] = useState(0);
+  const [numQuestions, setNumQuestions] = useState(0);
+  const [questionArray, setQuestionArray] = useState([currentQuestion]);
 
   const resetQuiz = () => {
     setScore(0);
-    setCurrentQuestion(0);
+    setCurrentQuestion(Math.floor(Math.random() * questions.length));
     setShowScore(false);
+    setNumQuestions(0);
+    setQuestionArray([currentQuestion]);
   };
 
   const handleAnswerButtonClick = (isCurrent: boolean) => {
+    let nextQ;
+
     if (isCurrent === true) {
       setScore(score + 1);
     }
 
-    const nextQuestion = currentQuestion + 1;
-    if (nextQuestion < questions.length) {
-      setCurrentQuestion(nextQuestion);
+    do {
+      nextQ = Math.floor(Math.random() * questions.length);
+      //console.log("duplicate, rerolling...");
+    } while (questionArray.includes(nextQ));
+
+    questionArray.push(nextQ);
+    setNumQuestions(numQuestions + 1);
+
+    if (numQuestions < 9) {
+      setCurrentQuestion(nextQ);
     } else {
       setShowScore(true);
     }
@@ -320,7 +334,7 @@ export default function App() {
       {}
       {showScore ? (
         <div className="score-section">
-          You scored {score} out of {questions.length}
+          You scored {score} out of 10
           <button id="reset-quiz" onClick={() => resetQuiz()}>
             Reset Quiz
           </button>
@@ -329,7 +343,7 @@ export default function App() {
         <>
           <div className="question-section">
             <div className="question-count">
-              <span>Question {currentQuestion + 1}</span>/{questions.length}
+              <span>Question {numQuestions + 1}</span>/10
             </div>
             <div className="question-text">
               {questions[currentQuestion].questionText}
